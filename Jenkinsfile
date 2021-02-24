@@ -15,6 +15,7 @@ pipeline {
                     npm install
                     npm run test
                 """
+                echo 'Test was successful'
             }
         }
     }
